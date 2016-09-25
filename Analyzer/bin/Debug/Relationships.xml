@@ -1,0 +1,487 @@
+<codeAnalysis>
+  <class name="Analyzer">
+    <relationship type="Aggregation" with="Parser" atline="62" />
+    <relationship type="Aggregation" with="FileManager" atline="77" />
+    <relationship type="Aggregation" with="Analyzer" atline="84" />
+  </class>
+  <class name="CommandLineParser">
+    <relationship type="Using" with="args" atline="181" />
+    <relationship type="Aggregation" with="CommandLineParser" atline="189" />
+    <relationship type="Using" with="args" atline="195" />
+    <relationship type="Using" with="args" atline="196" />
+    <relationship type="Using" with="args" atline="206" />
+  </class>
+  <class name="Display">
+    <relationship type="Composition" with="Elem" atline="269" />
+    <relationship type="Using" with="file" atline="275" />
+    <relationship type="Composition" with="Elem" atline="295" />
+    <relationship type="Using" with="Elem" atline="300" />
+    <relationship type="Using" with="Elem" atline="301" />
+    <relationship type="Using" with="Elem" atline="305" />
+    <relationship type="Using" with="Elem" atline="306" />
+    <relationship type="Using" with="Elem" atline="312" />
+    <relationship type="Using" with="Elem" atline="316" />
+    <relationship type="Using" with="Elem" atline="318" />
+    <relationship type="Using" with="Elem" atline="319" />
+    <relationship type="Using" with="Elem" atline="327" />
+    <relationship type="Using" with="Elem" atline="328" />
+    <relationship type="Using" with="Elem" atline="333" />
+    <relationship type="Using" with="Elem" atline="335" />
+    <relationship type="Using" with="Elem" atline="339" />
+    <relationship type="Using" with="Elem" atline="369" />
+    <relationship type="Using" with="Elem" atline="373" />
+    <relationship type="Using" with="Elem" atline="374" />
+    <relationship type="Using" with="args" atline="384" />
+    <relationship type="Aggregation" with="FileManager" atline="388" />
+    <relationship type="Using" with="string" atline="391" />
+    <relationship type="Aggregation" with="Analyzer" atline="395" />
+    <relationship type="Aggregation" with="Display" atline="396" />
+  </class>
+  <class name="Executive">
+    <relationship type="Using" with="string" atline="447" />
+    <relationship type="Using" with="string" atline="448" />
+    <relationship type="Using" with="string" atline="449" />
+    <relationship type="Using" with="string" atline="455" />
+    <relationship type="Using" with="string" atline="502" />
+    <relationship type="Aggregation" with="FileManager" atline="503" />
+    <relationship type="Using" with="args" atline="515" />
+    <relationship type="Aggregation" with="Executive" atline="516" />
+    <relationship type="Aggregation" with="CommandLineParser" atline="522" />
+    <relationship type="Using" with="Elem" atline="526" />
+    <relationship type="Using" with="Elem" atline="530" />
+    <relationship type="Using" with="Elem" atline="532" />
+    <relationship type="Using" with="args" atline="542" />
+    <relationship type="Using" with="Elem" atline="547" />
+    <relationship type="Using" with="Elem" atline="548" />
+    <relationship type="Using" with="Elem" atline="549" />
+    <relationship type="Using" with="Elem" atline="553" />
+    <relationship type="Aggregation" with="Analyzer" atline="558" />
+    <relationship type="Aggregation" with="Display" atline="560" />
+    <relationship type="Using" with="Elem" atline="564" />
+    <relationship type="Using" with="Elem" atline="570" />
+    <relationship type="Aggregation" with="XMLProcessor" atline="571" />
+    <relationship type="Using" with="Elem" atline="573" />
+  </class>
+  <class name="FileManager">
+    <relationship type="Using" with="string" atline="635" />
+    <relationship type="Using" with="string" atline="636" />
+    <relationship type="Using" with="string" atline="640" />
+    <relationship type="Using" with="string" atline="646" />
+    <relationship type="Using" with="string" atline="653" />
+    <relationship type="Using" with="patterns" atline="662" />
+    <relationship type="Using" with="string" atline="666" />
+    <relationship type="Using" with="args" atline="672" />
+    <relationship type="Aggregation" with="FileManager" atline="676" />
+    <relationship type="Using" with="string" atline="679" />
+  </class>
+  <class name="AAction">
+    <relationship type="Inheritance" with="IAction" atline="740" />
+  </class>
+  <class name="ARule">
+    <relationship type="Inheritance" with="IRule" atline="776" />
+  </class>
+  <class name="Parser">
+    <relationship type="Using" with="string" atline="887" />
+    <relationship type="Aggregation" with="CSemiExp" atline="890" />
+    <relationship type="Aggregation" with="CSemiExp" atline="891" />
+    <relationship type="Aggregation" with="BuildCodeAnalyzer" atline="892" />
+    <relationship type="Using" with="file" atline="895" />
+    <relationship type="Using" with="file" atline="899" />
+    <relationship type="Using" with="file" atline="900" />
+    <relationship type="Composition" with="Elem" atline="932" />
+    <relationship type="Using" with="file" atline="935" />
+    <relationship type="Using" with="file" atline="941" />
+    <relationship type="Using" with="file" atline="942" />
+  </class>
+  <class name="TestParser">
+    <relationship type="Using" with="args" atline="979" />
+    <relationship type="Using" with="string" atline="980" />
+    <relationship type="Using" with="args" atline="982" />
+    <relationship type="Using" with="args" atline="986" />
+    <relationship type="Using" with="args" atline="989" />
+    <relationship type="Using" with="args" atline="990" />
+    <relationship type="Using" with="args" atline="997" />
+    <relationship type="Using" with="args" atline="1012" />
+    <relationship type="Using" with="args" atline="1016" />
+    <relationship type="Using" with="args" atline="1018" />
+    <relationship type="Using" with="file" atline="1020" />
+    <relationship type="Aggregation" with="CSemiExp" atline="1023" />
+    <relationship type="Using" with="file" atline="1026" />
+    <relationship type="Using" with="args" atline="1027" />
+    <relationship type="Aggregation" with="BuildCodeAnalyzer" atline="1034" />
+    <relationship type="Composition" with="Elem" atline="1048" />
+    <relationship type="Using" with="Elem" atline="1051" />
+  </class>
+  <class name="Elem">
+    <relationship type="Using" with="string" atline="1167" />
+    <relationship type="Using" with="string" atline="1168" />
+    <relationship type="Using" with="string" atline="1173" />
+  </class>
+  <class name="RelElem">
+    <relationship type="Using" with="string" atline="1187" />
+    <relationship type="Using" with="string" atline="1188" />
+    <relationship type="Using" with="string" atline="1189" />
+    <relationship type="Using" with="string" atline="1194" />
+  </class>
+  <class name="Repository">
+    <relationship type="Aggregation" with="Elem" atline="1210" />
+    <relationship type="Aggregation" with="Elem" atline="1211" />
+    <relationship type="Aggregation" with="RelElem" atline="1212" />
+    <relationship type="Aggregation" with="RelElem" atline="1213" />
+  </class>
+  <class name="PushStack">
+    <relationship type="Inheritance" with="AAction" atline="1277" />
+    <relationship type="Using" with="Repository" atline="1282" />
+    <relationship type="Aggregation" with="Elem" atline="1286" />
+    <relationship type="Aggregation" with="indent" atline="1308" />
+  </class>
+  <class name="PushStack2">
+    <relationship type="Inheritance" with="AAction" atline="1320" />
+    <relationship type="Using" with="Repository" atline="1325" />
+    <relationship type="Aggregation" with="RelElem" atline="1329" />
+    <relationship type="Aggregation" with="indent" atline="1374" />
+  </class>
+  <class name="PopStack">
+    <relationship type="Inheritance" with="AAction" atline="1388" />
+    <relationship type="Using" with="Repository" atline="1393" />
+    <relationship type="Composition" with="Elem" atline="1397" />
+    <relationship type="Composition" with="Elem" atline="1408" />
+    <relationship type="Composition" with="Elem" atline="1426" />
+    <relationship type="Aggregation" with="CSemiExp" atline="1447" />
+    <relationship type="Aggregation" with="indent" atline="1456" />
+  </class>
+  <class name="PopStack2">
+    <relationship type="Inheritance" with="AAction" atline="1467" />
+    <relationship type="Using" with="Repository" atline="1472" />
+    <relationship type="Aggregation" with="CSemiExp" atline="1505" />
+    <relationship type="Aggregation" with="indent" atline="1514" />
+  </class>
+  <class name="PrintFunction">
+    <relationship type="Inheritance" with="AAction" atline="1525" />
+    <relationship type="Using" with="Repository" atline="1530" />
+  </class>
+  <class name="Print">
+    <relationship type="Inheritance" with="AAction" atline="1549" />
+    <relationship type="Using" with="Repository" atline="1554" />
+  </class>
+  <class name="DetectNamespace">
+    <relationship type="Inheritance" with="ARule" atline="1566" />
+    <relationship type="Aggregation" with="CSemiExp" atline="1572" />
+  </class>
+  <class name="DetectClass">
+    <relationship type="Inheritance" with="ARule" atline="1586" />
+    <relationship type="Aggregation" with="CSemiExp" atline="1597" />
+  </class>
+  <class name="DetectEnum">
+    <relationship type="Inheritance" with="ARule" atline="1611" />
+    <relationship type="Aggregation" with="CSemiExp" atline="1618" />
+  </class>
+  <class name="DetectFunction">
+    <relationship type="Inheritance" with="ARule" atline="1633" />
+    <relationship type="Using" with="string" atline="1636" />
+    <relationship type="Aggregation" with="stoken" atline="1639" />
+    <relationship type="Aggregation" with="CSemiExp" atline="1650" />
+  </class>
+  <class name="DetectAnonymousScope">
+    <relationship type="Inheritance" with="ARule" atline="1663" />
+    <relationship type="Aggregation" with="CSemiExp" atline="1669" />
+  </class>
+  <class name="DetectBracelessScope">
+    <relationship type="Inheritance" with="ARule" atline="1683" />
+    <relationship type="Using" with="string" atline="1686" />
+    <relationship type="Aggregation" with="stoken" atline="1689" />
+    <relationship type="Aggregation" with="CSemiExp" atline="1700" />
+  </class>
+  <class name="DetectInheritance">
+    <relationship type="Inheritance" with="ARule" atline="1713" />
+    <relationship type="Aggregation" with="CSemiExp" atline="1722" />
+  </class>
+  <class name="DetectAggregation">
+    <relationship type="Inheritance" with="ARule" atline="1737" />
+    <relationship type="Using" with="Repository" atline="1748" />
+    <relationship type="Composition" with="Elem" atline="1749" />
+    <relationship type="Using" with="Elem" atline="1753" />
+    <relationship type="Using" with="Elem" atline="1754" />
+    <relationship type="Aggregation" with="CSemiExp" atline="1761" />
+    <relationship type="Aggregation" with="CSemiExp" atline="1777" />
+  </class>
+  <class name="DetectUsing">
+    <relationship type="Inheritance" with="ARule" atline="1793" />
+    <relationship type="Using" with="Repository" atline="1809" />
+    <relationship type="Composition" with="Elem" atline="1810" />
+    <relationship type="Aggregation" with="CSemiExp" atline="1823" />
+    <relationship type="Using" with="Elem" atline="1834" />
+    <relationship type="Using" with="Elem" atline="1835" />
+    <relationship type="Aggregation" with="CSemiExp" atline="1842" />
+    <relationship type="Using" with="RelElem" atline="1852" />
+    <relationship type="Using" with="RelElem" atline="1854" />
+    <relationship type="Aggregation" with="CSemiExp" atline="1858" />
+    <relationship type="Using" with="RelElem" atline="1861" />
+    <relationship type="Using" with="RelElem" atline="1872" />
+    <relationship type="Using" with="RelElem" atline="1874" />
+    <relationship type="Aggregation" with="CSemiExp" atline="1878" />
+    <relationship type="Using" with="RelElem" atline="1881" />
+  </class>
+  <class name="DetectComposition">
+    <relationship type="Inheritance" with="ARule" atline="1897" />
+    <relationship type="Using" with="Repository" atline="1904" />
+    <relationship type="Composition" with="Elem" atline="1905" />
+    <relationship type="Using" with="Elem" atline="1909" />
+    <relationship type="Using" with="Elem" atline="1910" />
+    <relationship type="Using" with="Elem" atline="1915" />
+    <relationship type="Using" with="Elem" atline="1916" />
+    <relationship type="Aggregation" with="CSemiExp" atline="1922" />
+    <relationship type="Using" with="Elem" atline="1926" />
+  </class>
+  <class name="DetectAnonymousScope2">
+    <relationship type="Inheritance" with="ARule" atline="1941" />
+    <relationship type="Aggregation" with="CSemiExp" atline="1947" />
+  </class>
+  <class name="DetectLeavingScope">
+    <relationship type="Inheritance" with="ARule" atline="1962" />
+  </class>
+  <class name="BuildCodeAnalyzer">
+    <relationship type="Aggregation" with="Repository" atline="1976" />
+    <relationship type="Using" with="Repository" atline="1980" />
+    <relationship type="Aggregation" with="Parser" atline="1984" />
+    <relationship type="Aggregation" with="PushStack" atline="1991" />
+    <relationship type="Aggregation" with="DetectNamespace" atline="1994" />
+    <relationship type="Aggregation" with="DetectClass" atline="1999" />
+    <relationship type="Aggregation" with="DetectEnum" atline="2004" />
+    <relationship type="Aggregation" with="DetectFunction" atline="2009" />
+    <relationship type="Aggregation" with="DetectAnonymousScope" atline="2014" />
+    <relationship type="Aggregation" with="DetectBracelessScope" atline="2019" />
+    <relationship type="Aggregation" with="DetectLeavingScope" atline="2024" />
+    <relationship type="Aggregation" with="PopStack" atline="2025" />
+    <relationship type="Using" with="Repository" atline="2034" />
+    <relationship type="Using" with="Repository" atline="2036" />
+    <relationship type="Using" with="Repository" atline="2037" />
+    <relationship type="Aggregation" with="Parser" atline="2039" />
+    <relationship type="Aggregation" with="PushStack2" atline="2046" />
+    <relationship type="Aggregation" with="DetectInheritance" atline="2050" />
+    <relationship type="Aggregation" with="DetectAggregation" atline="2057" />
+    <relationship type="Aggregation" with="DetectUsing" atline="2062" />
+    <relationship type="Aggregation" with="DetectComposition" atline="2067" />
+  </class>
+  <class name="ScopeStack" />
+  <class name="Test">
+    <relationship type="Using" with="string" atline="2215" />
+    <relationship type="Using" with="string" atline="2216" />
+    <relationship type="Using" with="pl" atline="2222" />
+    <relationship type="Using" with="string" atline="2225" />
+    <relationship type="Aggregation" with="Elem" atline="2242" />
+    <relationship type="Using" with="Elem" atline="2243" />
+    <relationship type="Using" with="Elem" atline="2244" />
+    <relationship type="Using" with="Elem" atline="2245" />
+    <relationship type="Using" with="Elem" atline="2246" />
+    <relationship type="Using" with="Elem" atline="2247" />
+    <relationship type="Using" with="Elem" atline="2248" />
+    <relationship type="Using" with="Elem" atline="2249" />
+    <relationship type="Using" with="Elem" atline="2250" />
+    <relationship type="Using" with="Elem" atline="2251" />
+    <relationship type="Using" with="Elem" atline="2252" />
+    <relationship type="Using" with="Elem" atline="2253" />
+    <relationship type="Composition" with="Elem" atline="2258" />
+    <relationship type="Using" with="Elem" atline="2261" />
+    <relationship type="Using" with="Elem" atline="2262" />
+    <relationship type="Using" with="Elem" atline="2263" />
+    <relationship type="Using" with="Elem" atline="2264" />
+  </class>
+  <class name="CSemiExp">
+    <relationship type="Using" with="string" atline="2393" />
+    <relationship type="Aggregation" with="currTok" atline="2394" />
+    <relationship type="Aggregation" with="prevTok" atline="2395" />
+    <relationship type="Aggregation" with="CToker" atline="2407" />
+    <relationship type="Using" with="string" atline="2408" />
+    <relationship type="Using" with="str" atline="2433" />
+    <relationship type="Using" with="str" atline="2442" />
+    <relationship type="Using" with="str" atline="2449" />
+    <relationship type="Using" with="fileName" atline="2461" />
+    <relationship type="Using" with="tok" atline="2474" />
+    <relationship type="Using" with="string" atline="2488" />
+    <relationship type="Using" with="string" atline="2512" />
+    <relationship type="Using" with="string" atline="2522" />
+    <relationship type="Using" with="CSemiExp" atline="2545" />
+    <relationship type="Using" with="CSemiExp" atline="2547" />
+    <relationship type="Using" with="CSemiExp" atline="2550" />
+    <relationship type="Using" with="string" atline="2563" />
+    <relationship type="Using" with="tok" atline="2573" />
+    <relationship type="Using" with="token" atline="2582" />
+    <relationship type="Using" with="string" atline="2588" />
+    <relationship type="Using" with="tok" atline="2614" />
+    <relationship type="Using" with="string" atline="2627" />
+    <relationship type="Using" with="tok" atline="2631" />
+    <relationship type="Using" with="tok" atline="2633" />
+    <relationship type="Aggregation" with="CSemiExp" atline="2670" />
+    <relationship type="Using" with="semiExp" atline="2682" />
+    <relationship type="Using" with="semiExp" atline="2683" />
+    <relationship type="Using" with="token" atline="2693" />
+    <relationship type="Using" with="token" atline="2694" />
+    <relationship type="Using" with="args" atline="2706" />
+    <relationship type="Aggregation" with="CSemiExp" atline="2710" />
+    <relationship type="Aggregation" with="testFile" atline="2714" />
+    <relationship type="Using" with="CSemiExp" atline="2740" />
+    <relationship type="Using" with="args" atline="2745" />
+    <relationship type="Aggregation" with="CSemiExp" atline="2749" />
+    <relationship type="Using" with="args" atline="2752" />
+    <relationship type="Using" with="args" atline="2753" />
+    <relationship type="Using" with="args" atline="2757" />
+  </class>
+  <class name="CToker">
+    <relationship type="Using" with="string" atline="2874" />
+    <relationship type="Using" with="string" atline="2875" />
+    <relationship type="Using" with="string" atline="2894" />
+    <relationship type="Using" with="fileName" atline="2905" />
+    <relationship type="Using" with="source" atline="2920" />
+    <relationship type="Using" with="tok" atline="2937" />
+    <relationship type="Using" with="tok" atline="2939" />
+    <relationship type="Using" with="tok" atline="2943" />
+    <relationship type="Using" with="tok" atline="2952" />
+    <relationship type="Using" with="tok" atline="2954" />
+    <relationship type="Using" with="string" atline="2961" />
+    <relationship type="Aggregation" with="outstr" atline="2978" />
+    <relationship type="Using" with="line" atline="3005" />
+    <relationship type="Using" with="line" atline="3011" />
+    <relationship type="Using" with="line" atline="3015" />
+    <relationship type="Using" with="line" atline="3020" />
+    <relationship type="Using" with="lineRemainder" atline="3032" />
+    <relationship type="Using" with="lineRemainder" atline="3034" />
+    <relationship type="Using" with="lineRemainder" atline="3036" />
+    <relationship type="Using" with="lineRemainder" atline="3038" />
+    <relationship type="Using" with="lineRemainder" atline="3039" />
+    <relationship type="Using" with="lineRemainder" atline="3040" />
+    <relationship type="Using" with="lineRemainder" atline="3041" />
+    <relationship type="Aggregation" with="retStr" atline="3053" />
+    <relationship type="Using" with="lineRemainder" atline="3054" />
+    <relationship type="Using" with="lineRemainder" atline="3058" />
+    <relationship type="Using" with="lineRemainder" atline="3060" />
+    <relationship type="Using" with="lineRemainder" atline="3062" />
+    <relationship type="Using" with="str" atline="3074" />
+    <relationship type="Using" with="str" atline="3076" />
+    <relationship type="Using" with="str" atline="3080" />
+    <relationship type="Using" with="str" atline="3084" />
+    <relationship type="Using" with="str" atline="3086" />
+    <relationship type="Using" with="str" atline="3090" />
+    <relationship type="Aggregation" with="retStr" atline="3098" />
+    <relationship type="Using" with="lineRemainder" atline="3099" />
+    <relationship type="Using" with="lineRemainder" atline="3105" />
+    <relationship type="Using" with="lineRemainder" atline="3106" />
+    <relationship type="Using" with="lineRemainder" atline="3108" />
+    <relationship type="Using" with="lineRemainder" atline="3110" />
+    <relationship type="Using" with="lineRemainder" atline="3112" />
+    <relationship type="Using" with="lineRemainder" atline="3120" />
+    <relationship type="Using" with="lineRemainder" atline="3121" />
+    <relationship type="Using" with="string" atline="3132" />
+    <relationship type="Using" with="lineRemainder" atline="3133" />
+    <relationship type="Using" with="lineRemainder" atline="3139" />
+    <relationship type="Using" with="lineRemainder" atline="3140" />
+    <relationship type="Using" with="lineRemainder" atline="3142" />
+    <relationship type="Using" with="lineRemainder" atline="3144" />
+    <relationship type="Using" with="lineRemainder" atline="3146" />
+    <relationship type="Using" with="lineRemainder" atline="3154" />
+    <relationship type="Using" with="lineRemainder" atline="3155" />
+    <relationship type="Using" with="string" atline="3166" />
+    <relationship type="Using" with="lineRemainder" atline="3167" />
+    <relationship type="Using" with="lineRemainder" atline="3171" />
+    <relationship type="Using" with="lineRemainder" atline="3172" />
+    <relationship type="Using" with="lineRemainder" atline="3173" />
+    <relationship type="Using" with="lineRemainder" atline="3174" />
+    <relationship type="Using" with="lineRemainder" atline="3179" />
+    <relationship type="Using" with="lineRemainder" atline="3180" />
+    <relationship type="Using" with="lineRemainder" atline="3182" />
+    <relationship type="Using" with="line" atline="3186" />
+    <relationship type="Using" with="lineRemainder" atline="3187" />
+    <relationship type="Using" with="line" atline="3188" />
+    <relationship type="Using" with="lineRemainder" atline="3190" />
+    <relationship type="Aggregation" with="retStr" atline="3200" />
+    <relationship type="Using" with="lineRemainder" atline="3201" />
+    <relationship type="Using" with="line" atline="3207" />
+    <relationship type="Using" with="lineRemainder" atline="3208" />
+    <relationship type="Using" with="line" atline="3209" />
+    <relationship type="Using" with="lineRemainder" atline="3218" />
+    <relationship type="Using" with="lineRemainder" atline="3220" />
+    <relationship type="Using" with="lineRemainder" atline="3222" />
+    <relationship type="Using" with="lineRemainder" atline="3225" />
+    <relationship type="Using" with="lineRemainder" atline="3226" />
+    <relationship type="Aggregation" with="temp" atline="3227" />
+    <relationship type="Using" with="lineRemainder" atline="3229" />
+    <relationship type="Using" with="lineRemainder" atline="3234" />
+    <relationship type="Using" with="lineRemainder" atline="3237" />
+    <relationship type="Using" with="lineRemainder" atline="3240" />
+    <relationship type="Using" with="lineRemainder" atline="3241" />
+    <relationship type="Aggregation" with="retStr" atline="3259" />
+    <relationship type="Using" with="tok" atline="3261" />
+    <relationship type="Using" with="tok" atline="3263" />
+    <relationship type="Using" with="tok" atline="3264" />
+    <relationship type="Using" with="tok" atline="3265" />
+    <relationship type="Using" with="tok" atline="3269" />
+    <relationship type="Aggregation" with="retStr" atline="3276" />
+    <relationship type="Using" with="tok" atline="3277" />
+    <relationship type="Using" with="string" atline="3284" />
+    <relationship type="Using" with="line" atline="3286" />
+    <relationship type="Using" with="line" atline="3288" />
+    <relationship type="Using" with="string" atline="3290" />
+    <relationship type="Aggregation" with="temp" atline="3293" />
+    <relationship type="Aggregation" with="punc" atline="3298" />
+    <relationship type="Aggregation" with="ascii" atline="3303" />
+    <relationship type="Using" with="string" atline="3313" />
+    <relationship type="Aggregation" with="tok" atline="3315" />
+    <relationship type="Using" with="tok" atline="3317" />
+    <relationship type="Using" with="tok" atline="3319" />
+    <relationship type="Using" with="tok" atline="3320" />
+    <relationship type="Using" with="tok" atline="3324" />
+    <relationship type="Using" with="tok" atline="3329" />
+    <relationship type="Using" with="tok" atline="3333" />
+    <relationship type="Using" with="string" atline="3338" />
+    <relationship type="Using" with="string" atline="3342" />
+    <relationship type="Using" with="tok" atline="3343" />
+    <relationship type="Using" with="tok" atline="3349" />
+    <relationship type="Using" with="args" atline="3358" />
+    <relationship type="Aggregation" with="CToker" atline="3364" />
+    <relationship type="Using" with="args" atline="3368" />
+    <relationship type="Using" with="string" atline="3374" />
+    <relationship type="Using" with="file" atline="3376" />
+    <relationship type="Using" with="file" atline="3377" />
+    <relationship type="Using" with="string" atline="3379" />
+    <relationship type="Using" with="file" atline="3383" />
+    <relationship type="Using" with="string" atline="3385" />
+    <relationship type="Aggregation" with="tok" atline="3386" />
+    <relationship type="Using" with="tok" atline="3389" />
+    <relationship type="Using" with="string" atline="3395" />
+    <relationship type="Aggregation" with="msg2" atline="3414" />
+    <relationship type="Using" with="string" atline="3416" />
+    <relationship type="Aggregation" with="msg2" atline="3420" />
+    <relationship type="Using" with="string" atline="3422" />
+    <relationship type="Aggregation" with="tok" atline="3423" />
+    <relationship type="Using" with="tok" atline="3425" />
+    <relationship type="Using" with="tok" atline="3427" />
+  </class>
+  <class name="XMLProcessor">
+    <relationship type="Using" with="Repository" atline="3504" />
+    <relationship type="Composition" with="Elem" atline="3505" />
+    <relationship type="Composition" with="Elem" atline="3506" />
+    <relationship type="Using" with="Elem" atline="3514" />
+    <relationship type="Using" with="Elem" atline="3517" />
+    <relationship type="Using" with="Elem" atline="3522" />
+    <relationship type="Using" with="Elem" atline="3525" />
+    <relationship type="Using" with="Elem" atline="3530" />
+    <relationship type="Using" with="Elem" atline="3533" />
+    <relationship type="Using" with="Elem" atline="3538" />
+    <relationship type="Using" with="Elem" atline="3539" />
+    <relationship type="Using" with="Elem" atline="3544" />
+    <relationship type="Using" with="Elem" atline="3546" />
+    <relationship type="Using" with="Elem" atline="3551" />
+    <relationship type="Using" with="Elem" atline="3577" />
+    <relationship type="Using" with="Elem" atline="3581" />
+    <relationship type="Using" with="Elem" atline="3589" />
+    <relationship type="Using" with="RelElem" atline="3591" />
+    <relationship type="Using" with="RelElem" atline="3592" />
+    <relationship type="Using" with="RelElem" atline="3593" />
+    <relationship type="Using" with="args" atline="3610" />
+    <relationship type="Aggregation" with="FileManager" atline="3614" />
+    <relationship type="Using" with="string" atline="3617" />
+    <relationship type="Aggregation" with="Analyzer" atline="3621" />
+    <relationship type="Aggregation" with="Display" atline="3622" />
+    <relationship type="Aggregation" with="XMLProcessor" atline="3624" />
+  </class>
+</codeAnalysis>
