@@ -1,0 +1,6 @@
+C:\Users\Tanmay\Desktop\Semester1\Software Modelling and Analysis\MY_PROJECT_2\CodeAnalysis\FileManager\bin\Debug\FileManager.exe.config
+C:\Users\Tanmay\Desktop\Semester1\Software Modelling and Analysis\MY_PROJECT_2\CodeAnalysis\FileManager\bin\Debug\FileManager.exe
+C:\Users\Tanmay\Desktop\Semester1\Software Modelling and Analysis\MY_PROJECT_2\CodeAnalysis\FileManager\bin\Debug\FileManager.pdb
+C:\Users\Tanmay\Desktop\Semester1\Software Modelling and Analysis\MY_PROJECT_2\CodeAnalysis\FileManager\obj\Debug\FileManager.csprojResolveAssemblyReference.cache
+C:\Users\Tanmay\Desktop\Semester1\Software Modelling and Analysis\MY_PROJECT_2\CodeAnalysis\FileManager\obj\Debug\FileManager.exe
+C:\Users\Tanmay\Desktop\Semester1\Software Modelling and Analysis\MY_PROJECT_2\CodeAnalysis\FileManager\obj\Debug\FileManager.pdb
